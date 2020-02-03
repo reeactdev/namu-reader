@@ -6,3 +6,13 @@
     font-size: 1.2rem;
     line-height: 2rem;
 }
+
+#app > div > div:nth-child(2) > article > div:nth-child(5) > div:nth-child(2) > div > div > div del {
+    text-decoration: none;
+}
+del::before {
+    content: '/--' !important;
+}
+del::after {
+    content: '--/' !important;
+}
