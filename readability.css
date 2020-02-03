@@ -1,0 +1,8 @@
+#app > div > div:nth-child(2) > article {
+    font-family: 'RIDIBatang' !important;
+}
+
+#app > div > div:nth-child(2) > article > div:nth-child(5) > div:nth-child(2) > div > div > div {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
